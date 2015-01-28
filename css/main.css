@@ -15,7 +15,7 @@ h3, ul, li {
 
 
 #slogan {
-	text-decoration: italics;
+	font-style: italic;
 }
 
 hr{
