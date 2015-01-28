@@ -10,3 +10,8 @@ h1{
 #slogan {
 	text-decoration: italics;
 }
+
+hr{
+	width: 20px;
+
+}
