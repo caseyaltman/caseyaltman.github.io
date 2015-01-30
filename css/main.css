@@ -1,28 +1,18 @@
 body {
 	background-color: rgba(0,0,0,.42);
-	text-align: center;
-}
-
-h1, h2, p {
 	color: #ffffff;
 }
-
-
+section {
+	border-bottom:1px #fff solid;
+	margin:0 auto 0 auto;
+	width:600px;
+}
 h3, ul, li {
 	color: #000000;
-
 }
-
-
 #slogan {
 	font-style: italic;
 }
-
-hr{
-	width: 600px;
-
-}
-
 ul {
-	list-style-image: img src="caseyaltmandesign-web-logo.png";
+	list-style-image: url("../images/caseyaltmandesign-web-logo.png");
 }
