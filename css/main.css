@@ -14,5 +14,13 @@ h3, ul, li {
 	font-style: italic;
 }
 ul {
-	list-style-image: url("../images/caseyaltmandesign-web-logo.png");
+	list-style-type:none;
+}
+img {
+	display:block;
+	margin:0 auto 0 auto;
+	width:600px;
+}
+img.logo {
+	width:200px;
 }
