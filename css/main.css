@@ -1,11 +1,13 @@
 body {
-	background-color: rgba(0,0,0,.42);
+	background-color: rgba(0,0,0,.43);
 	color: #ffffff;
 }
 section {
 	border-bottom:1px #fff solid;
 	margin:0 auto 0 auto;
 	width:600px;
+	background-image: url("unit2wireframe_1.png");
+	background-size: cover;
 }
 h3, ul, li {
 	color: #000000;
