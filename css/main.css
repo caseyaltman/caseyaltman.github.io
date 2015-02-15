@@ -2,8 +2,7 @@
 
 body {
 	background-image: url("images/book-bw.jpg");
-  background-size: ;
-  font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 }
 section {
 	border-bottom:1px #fff solid;
