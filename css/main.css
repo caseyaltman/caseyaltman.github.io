@@ -4,6 +4,11 @@ body {
 	background: url("images/book-bw.jpg");
 	font-family: 'Roboto', sans-serif;
 }
+
+div {
+	background-color: #222222;
+	margin: auto;
+}
 section {
 	border-bottom:1px #fff solid;
 	margin:0 auto 0 auto;
