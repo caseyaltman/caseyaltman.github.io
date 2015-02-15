@@ -8,8 +8,8 @@ section {
 	border-bottom:1px #fff solid;
 	margin:0 auto 0 auto;
 	width:600px;
-	background-image: url("wireframes/unit2wireframe_1.png");
-	background-size: ;
+	background-image: url("images/book-bw.jpg");
+	background-size: cover;
 }
 h3, ul, li {
 	color: #000000;
