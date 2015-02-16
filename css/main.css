@@ -1,7 +1,7 @@
 	@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 	@import url(http://fonts.googleapis.com/css?family=Lobster);
 body {
-	background: url("images/book-bw.jpg");
+	background: url("../images/book-bw.jpg");
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -13,7 +13,7 @@ section {
 	border-bottom:1px #fff solid;
 	margin:0 auto 0 auto;
 	width:600px;
-	background-image: url("images/book-bw.jpg");
+	background-image: url("../images/book-bw.jpg");
 	background-size: cover;
 }
 h3, ul, li {
