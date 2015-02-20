@@ -37,8 +37,7 @@ section {
 	background: url("../images/book-bw.jpg") fixed;
 	background-repeat: repeat;
 	background-size: contain;
-	margin: 1em auto;
-	padding: 2em 1em;
+	
 }
 section div{
 	background-color: rgba(255, 255, 255, .5);
@@ -101,13 +100,22 @@ img.clientthumbnail {
 	margin: 2em auto;
 }
 
+
 #slogan {
 	font-style: italic;
 	text-align: center;
 }
+
+#wireframes {
+	background-color: rgba(255, 255, 255, .5);
+	width: 100%;
+	margin: 2em auto;
+}
+
 #wireframes div {
 	float:left;
 	width:50%;
+	padding: .6em;
 }
 #wireframes img {
 	width:100%;
