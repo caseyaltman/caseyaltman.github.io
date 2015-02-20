@@ -91,6 +91,13 @@ img.clientthumbnail {
 	font-style: italic;
 	text-align: center;
 }
+#wireframes div {
+	float:left;
+	width:50%;
+}
+#wireframes img {
+	width:100%;
+}
 .clearfix:after { 
 	content: "."; 
 	visibility: hidden; 
