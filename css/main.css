@@ -1,5 +1,10 @@
 	@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
-
+#CADFF5
+#98A3B0
+#262A2E
+#30353B
+#505861
+#FFFFFF
 *{margin:0;padding:0;box-sizing:border-box;}
 body {
 	background: #fff;
@@ -8,7 +13,13 @@ body {
 	font-weight:400;
 }
 
-div.header {
+#wrapper {
+	background-color: #CADFF5;
+	width: 960;
+	margin: 0 auto;
+}
+
+header {
 	background: url("../images/book-bw.jpg") no-repeat fixed;
 	background-size: contain;
 	background-color: rgba(71, 106, 119, .1);
@@ -16,7 +27,7 @@ div.header {
 	padding: 2em;
 }
 
-div.divbody {
+.divbody {
 	background-color: rgba(71, 106, 119, .1);
 	margin: auto;
 	padding: 2em;
@@ -40,7 +51,7 @@ margin-right: 200%;
 width:400px;
 }
 
-#navigation {
+#nav {
 text-align: left;
 line-height: 1.5em;
 margin-left: 350%;
@@ -53,7 +64,7 @@ width:400px;
 	margin: auto;
 }
 
-#footer {
+footer {
 	text-align: center;
 	display: inline;
 	width: 1200px;
