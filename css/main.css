@@ -91,3 +91,10 @@ img.clientthumbnail {
 	font-style: italic;
 	text-align: center;
 }
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
