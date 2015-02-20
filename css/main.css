@@ -22,24 +22,37 @@ header {
 }
 header div {
 	float:left;
+	background-color: rgba(255, 255, 255, .5);
+	width: 40%;
+	padding: 1em;
 }
 header nav {
 	float:right;
+	margin-top: 13em;
+	background-color: rgba(255, 255, 255, .5);
+	width: 18%;
+	padding: 1em;
 }
 section {
-	background-color: rgba(255, 255, 255, .5);
+	background: url("../images/book-bw.jpg") fixed;
+	background-repeat: repeat;
+	background-size: contain;
 	margin: 1em auto;
-	width:800px;
 	padding: 2em 1em;
 }
+section div{
+	background-color: rgba(255, 255, 255, .5);
+	width: 100%;
+}
+
 footer {
 	text-align: center;
-	width: 1200px;
 	line-height: 1.4;
-	margin: 1em auto;
-	display: run-in;
+	margin: auto;
+	clear:both;
 }
 h1, h2 {
+	font-size: 2em;
 	font-weight:700;
 	text-align: center;
 }
@@ -67,24 +80,25 @@ img.clientthumbnail {
 	width:100px;
 }
 .wrapper {
-	background-color: #CADFF5;
-	width: 960px;
-	margin: 0 auto;
-}
-.divbody {
-	background-color: rgba(71, 106, 119, .1);
+	width: 1200px;
 	margin: auto;
-	padding: 2em;
 }
 
 .skillslist {
-	background: none;
+	background-color: none;
 	padding: 2em;
 	width: auto;
 }
 #about {
-	width: 600px;
-	margin: auto;
+	background-color: rgba(255, 255, 255, .5);
+	width: 100%;
+	margin: 2em auto;
+}
+
+#contact {
+	background-color: rgba(255, 255, 255, .5);
+	width: 100%;
+	margin: 2em auto;
 }
 
 #slogan {
@@ -97,6 +111,7 @@ img.clientthumbnail {
 }
 #wireframes img {
 	width:100%;
+	padding: 2em;
 }
 .clearfix:after { 
 	content: "."; 
@@ -105,3 +120,4 @@ img.clientthumbnail {
 	height: 0; 
 	clear: both;
 }
+
