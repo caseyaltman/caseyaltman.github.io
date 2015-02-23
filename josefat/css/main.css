@@ -1,0 +1,109 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker|Cutive+Mono|Bad+Script|Rock+Salt|Inconsolata:400,700);
+/*E9F0FF (Silver)
+31269E (blue)
+FF9250 (orange)
+FFFFFF (white)
+font-family: 'Permanent Marker', cursive;
+font-family: 'Cutive Mono', ;
+font-family: 'Bad Script', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Inconsolata', ;
+font-family: 'Oswald', sans-serif; 400,300,700*/
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body {
+	background: url("../images/writing_pencil.jpg") no-repeat fixed;
+	background-size: cover;
+	margin: 4em 4em;
+	padding: 2em;
+}
+
+header{
+	background-color: #FF9250;
+	padding:1.5em;
+}
+
+header div {
+	margin: 1em;
+	background-color: rgba(255,255,255,.5);
+	padding:1.5em;
+
+}
+
+img {
+	display: inline;
+	float: right;
+	padding: 0em .3em;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+}
+
+ul {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	list-style: circle;
+	list-style-position: inside;
+	line-height: 2em;
+}
+
+section {
+	background-color: rgba(255,255,255,.5);
+	margin: 2em 2em;
+	padding: 2em 2em;
+}
+
+section div {
+	background-image: url("../images/graphpaperpencil.jpg") no-repeat fixed;
+	background-size: contain;
+
+}
+
+#logo {
+	font-family: 'Cutive Mono';
+	font-size: 80px;
+	line-height: 2em;
+
+}
+
+canvas #colorswatch {
+	 float: right;
+}
+
+.wrapper {
+	width: 100%;
+
+}
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
