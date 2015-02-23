@@ -56,12 +56,13 @@ section {
 	width:auto;
 }
 
+
 #services-grid {
 
 }
 
-#article1, #article2, #article3, #article4 {
-	display:block;
+#article1, #article2, #article3, #article4, #article5, #article6 {
+	display:inline-block;
 	float: left;
 	width:45%;
 	background-color:rgba(255,255,255,.5);
@@ -89,12 +90,27 @@ section {
 	font-color: #FF9250;
 }
 
+#article5:hover {
+	background-color: #E9F0FF;
+	font-color: #FF9250;
+}
+
+#article6:hover {
+	background-color: #E9F0FF;
+	font-color: #FF9250;
+}
 #about {
 	display:inline-block;
 	background-color:rgba(255,255,255,.5);
 	padding: 2em;
 	margin:2em;
 
+}
+
+footer {
+	width:auto;
+	padding: 2em;
+	margin:2em;
 }
 
 h1 {
@@ -134,6 +150,7 @@ ul {
 }
 
 li {
+	color:#31269E;
 
 }
 
@@ -147,12 +164,6 @@ img {
 	line-height: 2em;
 }
 
-
-#about {
-	background-color: rgba(255,255,255,.5);
-	padding: 2em;
-	margin:2em;
-}
 
 
 .clearfix:after { 
