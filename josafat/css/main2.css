@@ -14,36 +14,101 @@ font-family: 'Oswald', sans-serif; 400,300,700*/
 *{margin:0;padding:0;box-sizing:border-box;}
 
 body {
-	background: url("../images/writing_pencil.jpg") no-repeat fixed;
-	background-size: cover;
+	background-color: #FF9250;
 }
 
 header.clearfix {
-	background-color: #FF9250;
-	padding:2em;
-}
-
-header div {
 	background-color: rgba(255,255,255,.5);
+	padding: 2em;
+	margin:2em;
+}
+
+div.logotitle {
+	float:left;
+	display:block;
+	width: 45%;
+}
+
+nav {
+	float:right;
+	display:inline-block;
+	margin-top:3em;
+}
+
+a {
+	font-family:'Inconsolata';
+	font-size:1.5em;
+	color:#FF9250;
+	text-decoration:none;
+	display:block;
+	padding: 10px;
+	width: 200px;
+	float: right;
+	text-align:right;
+}
+
+a:hover {
+	background-color: #FF9250;
+	color: #E9F0FF;
+}
+
+section {
+	width:auto;
+}
+
+#services-grid {
 
 }
 
-img {
-	display: inline;
-	float: right;
-	width:100%;
+#article1, #article2, #article3, #article4 {
+	display:block;
+	float: left;
+	width:45%;
+	background-color:rgba(255,255,255,.5);
+	padding: 2em;
+	margin:2em;
+}
+
+#article1:hover {
+	background-color: #E9F0FF;
+	font-color: #FF9250;
+}
+
+#article2:hover {
+	background-color: #E9F0FF;
+	font-color: #FF9250;
+}
+
+#article3:hover {
+	background-color: #E9F0FF;
+	font-color: #FF9250;
+}
+
+#article4:hover {
+	background-color: #E9F0FF;
+	font-color: #FF9250;
+}
+
+#about {
+	display:inline-block;
+	background-color:rgba(255,255,255,.5);
+	padding: 2em;
+	margin:2em;
+
 }
 
 h1 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 	font-size: 2em;
+	color: #FF9250;
 }
 
 h2 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	font-size: 1.5em;
+	line-height:1.8em;
 }
 
 h3 {
@@ -68,39 +133,27 @@ ul {
 	line-height: 2em;
 }
 
-section {
-	background: url("../images/writing_pencil.jpg") no-repeat fixed;
-	background-size: cover;
+li {
+
 }
 
-section #banner {
-	background-image: url("../images/graphpaperpencil.jpg") no-repeat fixed;
-	background-size: contain;
-
+img {
+	float:inherit;
 }
 
 #pagetitle {
 	font-family: 'Cutive Mono';
 	font-size: 80px;
 	line-height: 2em;
-
 }
 
-div.logo #logo {
-	display:block;
-	float:left;
+
+#about {
+	background-color: rgba(255,255,255,.5);
+	padding: 2em;
+	margin:2em;
 }
 
-div.home-banner {
-	width: 100%;
-	display:block;
-	float:right;
-}
-
-div.home-banner img {
-	width:100%;
-	float:inherit;
-}
 
 .clearfix:after { 
 	content: "."; 
@@ -109,5 +162,3 @@ div.home-banner img {
 	height: 0; 
 	clear: both;
 }
-
-
