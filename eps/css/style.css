@@ -184,12 +184,12 @@ h6 { font-size: .7em; }
     FOOTER
 ----------------------------------- */
 
-footer { background: #f7f7f7; font-size: 16px; letter-spacing: 2px; font-family: 'museo500', sans-serif; line-height: 90px; }
+footer { background: #f7f7f7; font-size: 13px; letter-spacing: 2px; font-family: 'museo500', sans-serif; line-height: 90px; }
 footer a { color: #282828; }
 
-footer p { line-height: 1.5; font-size: 16px; font-family: 'museo300', sans-serif; letter-spacing: 1px; }
+footer p { line-height: 1.5; font-size: 13px; font-family: 'museo300', sans-serif; letter-spacing: 1px; }
 
-.footer-links { text-align: center; margin: 0; padding: 0; list-style: none; width: 100%; display: table; font-size: 20px; font-family: 'museo300', sans-serif; }
+.footer-links { text-align: center; margin: 0; padding: 0; list-style: none; width: 100%; display: table; font-size: 13px; font-family: 'museo300', sans-serif; }
 .footer-links li { display: table-cell; }
 .footer-links li a { text-decoration: none; }
 
