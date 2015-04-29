@@ -37,7 +37,7 @@
 	BASE
 ----------------------------------- */
 
-body { margin: 0px; line-height: 1.45; background: #fff; color: #282828; font-family: 'museo300', sans-serif; font-size: 29px; }
+body { margin: 0px; line-height: 1.45; background: #fff; color: #282828; font-family: 'museo300', sans-serif; font-size: 18px; }
 a { text-decoration: underline; color: #3333cc; }
 a:hover { text-decoration: none; }
 img { border: none; max-width: 100%; max-height: 100%; vertical-align: middle; }
@@ -50,12 +50,12 @@ strong { font-family: 'museo500', sans-serif; }
 
 h1 , h2 , h3 , h4 { font-weight: normal; margin: 0; text-transform: uppercase; letter-spacing: 1px; font-family: 'museo500', sans-serif; }
 h5 , h6 { font-weight: normal; margin: 0; letter-spacing: 1px; }
-h1 { font-size: 45px; }
-h2 { font-size: 40px; }
-h3 { font-size: 35px; }
-h4 { font-size: 29px; }
-h5 { font-size: 29px; }
-h6 { font-size: 25px; }
+h1 { font-size: 30px; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1em; }
+h4 { font-size: .9em; }
+h5 { font-size: .8em; }
+h6 { font-size: .7em; }
 
 .container { width: 1140px; margin: 0 auto; }
 
