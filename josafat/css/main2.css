@@ -108,11 +108,27 @@ section {
 }
 
 footer {
-	display:inline-block;
+	font-family:'Oswald', sans-serif;
+	font-size:1.5em;
+	color:#FF9250;
 	background-color:rgba(255,255,255,.5);
 	padding: 2em;
 	margin:2em;
 	width:95%;
+	text-align:center;
+	clear:both;
+}
+
+footer a {
+	color:#FF9250;
+	text-decoration:none;
+	text-align: center;
+
+}
+
+footer a:hover {
+	background-color: #FF9250;
+	color: #E9F0FF;
 }
 
 h1 {
@@ -127,12 +143,15 @@ h2 {
 	font-weight: 400;
 	font-size: 1.5em;
 	line-height:1.8em;
+	color: #31269E;
 }
 
 h3 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
 	font-size: 1em;
+	color: #31269E;
+	width: 75%;
 
 }
 
@@ -175,4 +194,5 @@ img {
 	display: block; 
 	height: 0; 
 	clear: both;
+	font-size:0;
 }

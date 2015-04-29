@@ -1,0 +1,90 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/drop_examples.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the assocaited (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+/* commom style for all browsers */
+.menu4 { float: right; width: 765px; overflow: hidden; }
+.nav_toggle { display: none; }
+.menu4 ul { margin: 0; padding: 0px; list-style: none; font-size: 14px; float: right; z-index: 9999; }
+.menu4 ul li { float: left; position: relative; margin-left: 25px; }
+.menu4 ul li:first-child { margin-left: 0; }
+.menu4 ul li a , .menu4 ul li a:visited { display: block; color: #282828; text-transform: uppercase; text-decoration: none; letter-spacing: 2px; line-height: 76px; }
+.menu4 ul li ul { visibility: hidden; position: absolute; top: 0; left: 0; height: 0; overflow: hidden; background: none; background: url(./images/spacer.gif)!important; z-index: 100; }
+.menu4 table { margin: -1px; border-collapse: collapse; font-size: 1em; }
+
+/* fist line style for IE7 and non-IE browsers and the second line for IE5.5 and IE6 */
+.menu4 ul li:hover a,
+.menu4 ul li a:hover { color: #B5916D; text-decoration: none; }
+.menu4 ul li a.active { color: #282828; font-weight: bold; }
+.menu4 ul li:hover ul,
+.menu4 ul li a:hover ul { visibility: visible; width: 155px; margin-left: 8px; height: auto; position: absolute; top: 35px; left: -8px; border: 0px solid #000000; overflow: visible; }
+.menu4 ul li:hover ul li a,
+.menu4 ul li a:hover ul li a { display: block; border: 0px solid #00FF33; background: #7e413e; text-align: left; text-decoration: none; color: #ffffff; height: auto; line-height: 1.3em; padding-top: 8px; padding-bottom: 5px; width: 110px; w\idth: 96px; opacity: 0.8; filter: alpha(opacity=80); }
+.menu4 ul li:hover ul li a.drop,
+.menu4 ul li a:hover ul li a.drop { display: block; color: #ffffff; height: auto; line-height: 1.35em;  padding-top: 5px; padding-bottom: 5px; width: 170px; width: 125px; }
+.menu4 ul li:hover ul li ul,
+.menu4 ul li a:hover ul li a ul { visibility: hidden; position: absolute; top: 0; left: 0; height: 0; overflow: hidden; }
+.menu4 ul li:hover ul li a:hover,
+.menu4 ul li a:hover ul li a:hover { color: #FFFFFF!important; text-decoration:none; background: #520110!important; }
+.menu4 ul li:hover ul li:hover ul,
+.menu4 ul li a:hover ul li a:hover ul { visibility: visible; position: absolute; top: 0; color: #000; left: 145px !important; height: auto; border: 0px solid #000000; background: url(./images/spacer.gif) !important; width: 180px!important; padding-top: 5px !important; z-index: 1000 !important; padding-bottom: 5px !important; }
+.menu4 ul li:hover ul li:hover ul.left,
+.menu4 ul li a:hover ul li a:hover ul.left { left: -166px; }
+.menu4 ul li:hover ul li:hover ul li,
+.menu4 ul li a:hover ul li a:hover ul li { background: none !important; }
+.menu4 ul li:hover ul li:hover ul li a,
+.menu4 ul li a:hover ul li a:hover ul li a { text-decoration: none !important; display: block; color: #ffffff !important; height: auto; line-height: 1.2em;  padding-top: 4px; padding-bottom: 7px; width: 170px; w\idth: 140px; background-color: #302105; }
+* html .menu4 ul li a:hover ul li a:hover ul li a { padding-top: 5px; padding-bottom: 5px; }
+
+.menu4 ul li:hover ul li:hover ul li:hover a,
+.menu4 ul li a:hover ul li a:hover ul li a:hover { color: #000000 !important; text-decoration: underline; background: none !important; text-decoration: none !important; }
+
+
+
+@media only screen and (min-width:960px) and (max-width:1180px) {
+    .menu4 { width: 101px; overflow: visible; }
+    .nav_toggle { display: block; }
+    .menu4 ul { display: none; background: #dedede; position: absolute; right: 0;left: 0; }
+    .menu4 ul li { float: none; display: block; margin: 0; text-align: right; }
+    .menu4 ul li a { line-height: 1; padding: 20px; }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.menu4 { width: 101px; overflow: visible; }
+    .nav_toggle { display: block; text-align: right; }
+    .nav_toggle img { height: 90px; }
+    .menu4 ul { display: none; background: #dedede; position: absolute; right: 0;left: 0; }
+    .menu4 ul li { float: none; display: block; margin: 0; text-align: right; }
+    .menu4 ul li a { line-height: 1; padding: 20px; }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	.menu4 { width: 101px; overflow: visible; }
+    .nav_toggle { display: block; text-align: right; }
+    .nav_toggle img { height: 90px; }
+    .menu4 ul { display: none; background: #dedede; position: absolute; right: 0;left: 0; }
+    .menu4 ul li { float: none; display: block; margin: 0; text-align: right; }
+    .menu4 ul li a { line-height: 1; padding: 20px; }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 639px) {
+	.menu4 { width: 15%; overflow: visible; }
+    .nav_toggle { display: block; text-align: right; }
+    .nav_toggle img { height: 90px; }
+    .menu4 ul { display: none; background: #dedede; position: absolute; right: 0;left: 0; }
+    .menu4 ul li { float: none; display: block; margin: 0; text-align: right; }
+    .menu4 ul li a { line-height: 1; padding: 20px; }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	.menu4 { width: 15%; overflow: visible; }
+    .nav_toggle { display: block; }
+    .menu4 ul { display: none; background: #dedede; position: absolute; right: 0;left: 0; }
+    .menu4 ul li { float: none; display: block; margin: 0; text-align: right; }
+    .menu4 ul li a { line-height: 1; padding: 20px; }
+}
